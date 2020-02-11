@@ -30,7 +30,10 @@
                         <td><input type="radio" name="item" value="${list}">${list}</td><br>
                     </tr>
                 </c:forEach>
-                <input type="submit" value="Delete">    
+                <c:if test="${sessionScope.itemList != null}">
+                    <input type="submit" value="Delete"> 
+                </c:if>
+                   
             </form>
             
         </div>

@@ -123,7 +123,7 @@ public class ShoppingListServlet extends HttpServlet {
                 .forward(request, response);
         }
         else{
-            
+            // Do nothing
         }
     }
 
