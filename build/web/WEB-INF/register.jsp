@@ -16,6 +16,9 @@
         <form action="ShoppingList" method="POST">
             Username: <input type="text" name="username">
             <input type="submit" value="Register name">
+            <!-- Hidden field to determine what is being sent in -->
+            <input type="hidden" name="action" value="register">
         </form>
+        ${message}
     </body>
 </html>
